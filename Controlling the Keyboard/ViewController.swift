@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Outlets
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet var label: UIView!
     
-    
+    // Actions
+    @IBAction func buttonPressed(_ sender: AnyObject) {
+        
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
