@@ -18,8 +18,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sgd-nM-0tq">
-                                <frame key="frameInset" minX="139" minY="234" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sgd-nM-0tq">
+                                <frame key="frameInset" minX="-13" minY="234" width="401" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="G9f-W8-iZB"/>
+                                </constraints>
+                                <color key="textColor" red="0.63828718350000002" green="0.44577444240000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -48,7 +52,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="8bC-Xf-vdC" id="Raj-7D-Ljz"/>
+                        <outlet property="label" destination="3WO-kf-Ve9" id="oO7-pT-onT"/>
                         <outlet property="textField" destination="sgd-nM-0tq" id="yLG-50-uhj"/>
                     </connections>
                 </viewController>

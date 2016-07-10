@@ -12,11 +12,13 @@ class ViewController: UIViewController {
     
     // Outlets
     @IBOutlet weak var textField: UITextField!
-    @IBOutlet var label: UIView!
+    @IBOutlet weak var label: UILabel!
+    
     
     // Actions
     @IBAction func buttonPressed(_ sender: AnyObject) {
         // Change Text
+        label.text = textField.text
         
     }
 
@@ -28,4 +30,3 @@ class ViewController: UIViewController {
 
 
 }
-
