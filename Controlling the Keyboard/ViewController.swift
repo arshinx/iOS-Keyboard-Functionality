@@ -35,7 +35,9 @@ class ViewController: UIViewController {
     // Close Keyboard
     func textFieldShouldReturn(textField: UITextField!) -> Bool {
         
+        textField.resignFirstResponder()
         
+        return true
     }
 
 
